@@ -26,6 +26,6 @@ eodAPI.setup({apiToken: "OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX", exchangeCode: "US"})
 	console.log(eodRes);
 })();
 ```
-As you can see, you must set up this module with your api token ([Get yours here](https://eodhistoricaldata.com/cp/settingshttp:// "Get yours here")) and (**optionally**) an exchange code ([List of Codes](http://https://eodhistoricaldata.com/knowledgebase/list-supported-exchanges/ "List of codes")). Once you completed the setup, you can use any function from [Oficial Documentation](https://eodhistoricaldata.com/knowledgebase/http:// "oficial documentation").
+As you can see, you must set up this module with your api token ([Get yours here](https://eodhistoricaldata.com/cp/settings "Get yours here")) and (**optionally**) an exchange code ([List of Codes](https://eodhistoricaldata.com/knowledgebase/list-supported-exchanges/ "List of codes")). Once you completed the setup, you can use any function from [Oficial Documentation](https://eodhistoricaldata.com/knowledgebase/ "oficial documentation").
 
 #### [Documentation here](http://https://github.com/AlanVncs/eodhistoricaldata/wiki/Documentation "The Documentation")
