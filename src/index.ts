@@ -27,7 +27,7 @@ type Fmt = "json" | "csv";
 type Period = "d" | "w" | "m";
 type Options = {api_token?: string, from?: string, to?: string, period?: Period, filter?: string, fmt?: Fmt}
 
-class EodApi {
+class EODApi {
 
     apiToken: string = "";
     exchangeCode: string = "";
@@ -59,4 +59,4 @@ class EodApi {
     }
 }
 
-export const eodData = new EodApi();
+export default new EODApi();

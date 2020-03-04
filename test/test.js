@@ -1,8 +1,8 @@
-const {eodData} = require('../dist/index');
+const eodAPI = require('../dist/index').default;
 
-eodData.setup({apiToken: "OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX"});
+eodAPI.setup({apiToken: "OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX"});
 
 (async () => {
-    const res = await eodData.eod("AAPL.US", {fmt: 'json', from: "2020-02-01"});
+    const res = await eodAPI.eod("AAPL.US", {fmt: 'json', from: "2020-01-01"});
     console.log(res);
 })();
